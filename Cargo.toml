@@ -1,0 +1,19 @@
+[package]
+name = "WebRTC_MixNet"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0"
+async-trait = "0.1"
+bytes = "1.12"
+dashmap = "6.2"
+kademlia-dht = "1.2.0"
+rand = "0.8.5"
+serde_json = "1.0"
+sphinx-packet = "0.8.0"
+tokio = { version = "1", features = ["full"] }
+webrtc = "0.21.1"
+libp2p = { version = "0.53", features = ["tokio", "kad", "mdns", "tcp", "noise", "yamux", "macros"] }
+snow = "0.10.0"
+
