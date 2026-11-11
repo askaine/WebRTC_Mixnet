@@ -45,3 +45,8 @@ Next Steps / To-Do:
 
 ⚠️ Disclaimer
 This is a prototype built for educational and architectural demonstration purposes. While it uses audited cryptographic primitives, the overarching network protocol has not been formally audited. Do not use this for critical anonymity or life-and-death operational security.
+
+
+
+
+ONLY THE README AND MAIN.RS WHICH JUST RUNS THE NETWORK IS AI MADE
